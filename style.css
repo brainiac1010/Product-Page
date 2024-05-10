@@ -203,6 +203,10 @@ form button {
         flex-direction: column;
     }
 
+    .container {
+        margin-left: 10px;
+    }
+
     .gallery {
         flex-basis: 100%;
         transform: none;
