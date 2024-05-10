@@ -203,9 +203,7 @@ form button {
         flex-direction: column;
     }
 
-    .container {
-        margin-left: 10px;
-    }
+  
 
     .gallery {
         flex-basis: 100%;
@@ -218,6 +216,7 @@ form button {
         padding: 20px;
         padding-left: 0;
         font-size: 15px;
+        padding-left: 20px;
     }
 
     .size-select,
