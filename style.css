@@ -197,9 +197,7 @@ form button {
 }
 
 
-/* Existing CSS */
 
-/* Media query for mobile devices */
 @media only screen and (max-width: 768px) {
     .product {
         flex-direction: column;
@@ -240,6 +238,11 @@ form button {
     }
 
     form button {
+        margin-top: 20px;
+    }
+
+    .controls {
+        position: static;
         margin-top: 20px;
     }
 }
