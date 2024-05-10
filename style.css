@@ -195,3 +195,51 @@ form button {
 .btn.active {
     background: #20c997;
 }
+
+
+/* Existing CSS */
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .product {
+        flex-direction: column;
+    }
+
+    .gallery {
+        flex-basis: 100%;
+        transform: none;
+        box-shadow: none;
+    }
+
+    .details {
+        flex-basis: 100%;
+        padding: 20px;
+        padding-left: 0;
+        font-size: 15px;
+    }
+
+    .size-select,
+    .color-select,
+    .quantity-select {
+        margin-top: 20px;
+    }
+
+    .size-select p,
+    .color-select p,
+    .quantity-select p {
+        width: auto;
+    }
+
+    .quantity-select input {
+        width: 40px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    form button {
+        margin-top: 20px;
+    }
+}
