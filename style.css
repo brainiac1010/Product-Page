@@ -158,3 +158,15 @@
     width: 50px;
     border-radius: 12px;
 }
+form button{
+    background: linear-gradient(to bottom, #20c997, #28a745);
+    color: #fff;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    margin-top: 50px;
+    box-shadow: 0 2px 6px rgba(85, 63, 240, 0.2);
+    cursor: pointer;}
