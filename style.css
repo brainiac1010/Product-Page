@@ -16,7 +16,7 @@
 
 .product {
     width: 90%;
-    max-width: 75%;
+    max-width: 750px;
     display: flex;
 }
 
@@ -31,6 +31,7 @@
 .gallery img {
     width: 100%;
     display: block;
+    padding-top: 100px;
 }
 
 .details {
